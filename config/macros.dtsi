@@ -2,13 +2,13 @@ macro_vscode_terminal: macro_vscode_terminal{
 compatible = "zmk,behavior-macro";
 label = "macro_vscode_terminal";
 #binding-cells = <0>;
-bindings = <&kp UNDERSCORE>, <&kp T>, <&kp E>, <&kp R>;
+bindings = <&kp UNDERSCORE>, <&kp T>;
 };
 macro_vscode_zen: macro_vscode_zen{
 compatible = "zmk,behavior-macro";
 label = "macro_vscode_zen";
 #binding-cells = <0>;
-bindings = <&kp UNDERSCORE>, <&kp Z>, <&kp E>, <&kp N>;
+bindings = <&kp UNDERSCORE>, <&kp Z>;
 };
 macro_leader_pf: macro_leader_pf{
 compatible = "zmk,behavior-macro";
